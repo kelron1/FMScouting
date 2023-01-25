@@ -1,3 +1,11 @@
+h1 {
+	font-size: 1.6em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
 div.container {
   position: relative;
   overflow: hidden;
@@ -8,6 +16,7 @@ div.container {
  div.content {
   margin-left: 200px;
   padding: 1px 16px;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 .responsive-iframe {
@@ -29,6 +38,7 @@ div.container {
   position: fixed;
   height: 100%;
   overflow: auto;
+  padding-top: 5vh;
 }
 
 /* Sidebar links */
@@ -38,6 +48,7 @@ div.container {
   padding: 16px;
   text-decoration: none;
   font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
 }
 
 /* Active/current link */
@@ -50,7 +61,6 @@ div.container {
 .sidebar a:hover:not(.active) {
   background-color: #555;
   color: white;
-  text-indent: 4px;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -59,6 +69,7 @@ div.container {
     width: 100%;
     height: auto;
     position: relative;
+	padding-top:0;
   }
   .sidebar a {float: left;}
   div.content {margin-left: 0;}
@@ -66,6 +77,9 @@ div.container {
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
+	.sidebar {
+		padding-top:0;
+	}
   .sidebar a {
     text-align: center;
     float: none;
