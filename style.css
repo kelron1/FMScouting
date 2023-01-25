@@ -1,3 +1,7 @@
+* {
+	 font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
 h1 {
 	font-size: 1.6em;
 }
@@ -16,7 +20,7 @@ div.container {
  div.content {
   margin-left: 200px;
   padding: 1px 16px;
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+ 
 }
 
 .responsive-iframe {
@@ -47,7 +51,6 @@ div.container {
   color: black;
   padding: 16px;
   text-decoration: none;
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 1.2em;
 }
 
