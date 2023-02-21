@@ -11,78 +11,92 @@
   <a href="index.html">Home</a>
   <a href="map.html">Scouting map</a>
   <a href="personality.html">Personality checker</a>
-  <a href="info.html" class="active">Game setup</a>
+  <a href="info.html" class="active">FAQ</a>
 </div>
 
 
 <div class="content">
-	<h1>
-		Game setup
-	</h1>
-	
-	<p>
-		How to set up a new Football Manager save has been covered extensively in the past so for the scouting map I have only looked at youth production, not league results or transfer activity. <br>
-	</p>
-	
-	<h2>
-		Summary
-	</h2>
-	
-	<p>
-		Larger databases result in more youth production, but the difference is smaller for high potential players, and you get diminishing returns for very large databases. Adding a wide range of playable leagues or adding players across the whole world increases the variety of nations producing good prospects, but spreads out production of good prospects rather than simply adding more. <br><br>
-Nations that aren’t worth scouting on average can still produce good prospects occasionally, and this seems more likely on larger databases.<br><br>
-This may also make scouting harder as there will be more nations to cover and far more low potential players as well. <br><br>
-Suggested setups:<br><br>
-If you want the absolute highest youth production– load the largest database you can, with playable leagues, but this can add 2 or 3 hours to a season even on a high end PC.<br><br>
-If you want varied youth production without the performance hit – load a few playable leagues (e.g. top 5 in Europe), but add a large database of additional players.<br><br>
-If you want the best performance – Only load leagues you want to play in, but you can add some additional players without losing much performance. Adding international & high reputation players will increase your database size and youth production. If you only add specific countries, focus on scouting those.
-	<br></p>
-	
-	<h2>
-		Database size
-	</h2>
-	
-	<p>
-		Larger database adds more players, but it’s a small difference compared to having the league playable or not. I used large for most of my tests as it didn’t change performance much on my PC. <br>
-	</p>
-	
-	<h2>
-		League type
-	</h2>
-	
-	<p>
-	Not loaded – low number of newgens.<br>
-View-only – same newgen production as not loaded. Some performance cost.<br>
-Playable – much higher newgen production, high performance cost. <br>
-	</p>
-	
-	<h2>Advanced setup</h2>
-	
-	<p>
-	This allows you to add players to the database without adding the leagues they play in. This can greatly increase newgen production & expand the range of nations producing good prospects without the performance cost of playable leagues. The options range from adding top players only, to adding everyone playing in the nation. <br>
-	</p>
-	
-	<h2>Playable leagues vs loading players only</h2>
-	
-	<p>When you load a league as playable, FM will generate some newgens right at the start of the game. The numbers and nationalities of these players vary by which leagues you load. I haven’t been able to work out why or how the game decides where to create these players, but they make a difference to later newgen production. It can add players to nations other than the selected playable league in some circumstances.<br>
-	</p>
-	
-	<h2>Examples</h2>
-	
-	<p>Numbers for example nations on different setups:<br><br>
-Brazil – Brazil will always produce a good number of prospects regardless of database size. On the smallest database, non-playable, they averaged 22 players per intake with 11 having high potential. On the largest, 7,700 players per intake with 35 having good potential.<br><br>
-Nigeria – A nation with high youth rating, but no option for playable leagues. On the smallest database, they weren’t worth scouting with an average of 1.8 players per intake and only 1 good prospect across 10 simulations. In the largest, they’re one of the better nations with 527 per intake and 2.8 with good potential.<br><br>
-Japan – Another nation with high youth rating but no playable leagues. However they show the effect of other playable leagues described above. On the largest database (without playable leagues), they produced 67 per intake with 2 having good potential. On a mid-sized database, but with all leagues playable, they produced more at 106 per intake with 3.6 being high potential.<br><br>
-Algeria – A nation that seems only worth scouting when loading a very large database. In most setups their youth production was very low, however when loading all available players, they fell just outside the top 20 with 147 players per intake and 1.8 with good potential. <br><br>
+<h2>Frequently Asked Questions</h2>
 
-Some setups I tested:<br><br>
-Large database, 1 playable league, top division & international players loaded – 104,000 starting player count, 17,000 newgens per year, 249 with 150+ potential and 13 with 180+. 63 different nations producing at least 1 150+ PA player.<br><br>
-Large database, 1 playable league, all additional players loaded – 458,000 starting player count, 101,000 newgens per year, 289 with 150+ potential and 18 with 180+. 72 different nations producing at least 1 150+ PA player.<br><br>
-Large database, all leagues playable, top division & international players loaded – 202,000 starting player count, 45,000 newgens per year, 283 with 150+ potential and 14 with 180+. 70 different nations producing at least 1 150+ PA player.</p>
-		
+<button class="accordion">Does player count change during a save?</button>
+<div class="panel">
+	<p>Not much. The game tries to keep the total player count close to the starting count, with a small amount of fluctuation year to year.</p>
+</div>
+
+<button class="accordion">Does total youth production change during a save?</button>
+<div class="panel">
+	<p>Yes. A lot more players are produced in the first year than later on, but it stays consistent after the first 2-3 years. </p>
+</div>
+
+<button class="accordion">Does a nation’s youth production change during a save?</button>
+<div class="panel">
+	<p>Short answer, no. The proportion & potential of newgens coming from each country stays roughly the same.
+	<br><br>
+	Long answer, it’s possible for it to change due to the dynamic youth rating, but this is a very small effect that’s unlikely to be noticed unless you’re simulating decades into the future. There is also a large amount of chance involved in youth intakes with the possibility of golden generations or talented players appearing in unlikely places. </p>
+</div>
+
+<button class="accordion">Are your results correct for [nation]?</button>
+<div class="panel">
+	<p>The results on the scouting map are from a very large set of players generated from different game setups. Some nations turned out better or worse than I expected, but this can vary between saves, especially if you use mods or custom data packs. The top 10-15 nations were consistently the same across all vanilla game setups, but below this it can change from intake to intake, with many countries having some chance of producing talented players.</p>
+</div>
+
+<button class="accordion">Which nations should I load? </button>
+<div class="panel">
+	<p>I don’t recommend loading a lot of playable leagues unless you don’t care about game performance.
+<br><br>
+Using the game setup options to add players to every continent greatly increases the number and variety of youth production and I’d recommend doing this unless you need to run a very small database for performance reasons. The different options allow you to customise exactly how many players you want to load.
+<br><br>
+On slower PCs, you could load players to specific nations only to keep the size down. You can use the scouting map to identify appropriate nations based on the teams you want to manage (e.g. a large database of English players would be unnecessary if you only intend to play in South America, but Mexico would be worthwhile). </p>
+</div>
+
+<button class="accordion">How should I set up my game?</button>
+<div class="panel">
+	<p>I can’t tell you exactly as it may run much slower or faster than it does on my PC. My preference based on my tests is for a total player count of 150-200k with 5-10 playable leagues. </p>
+</div>
+
+<button class="accordion">Do view-only leagues produce more youth than non-loaded leagues?</button>
+<div class="panel">
+	<p>No.</p>
+</div>
+
+<button class="accordion">Do playable leagues produce more youth than non-loaded leagues?</button>
+<div class="panel">
+	<p>Yes, a lot more.</p>
+</div>
+
+<button class="accordion">Do playable leagues produce more youth than non-loaded leagues with players added?</button>
+<div class="panel">
+	<p>Potentially yes, but it varies a lot depending on exact setup options. Under certain circumstances playable leagues will create newgens at the start in addition to the database of real players. These tend to be low quality, but affect the number of players in future youth intakes. I wasn’t able to identify the cause of this in my testing. </p>
+</div>
+
+<button class="accordion">Does running a large database slow the game down?</button>
+<div class="panel">
+	<p>Yes, but it really depends on your PC and your preferences to what is fast enough. Loading players without loading playable leagues is much faster than loading playable leagues. Higher end PCs can easily run with player counts over the limit recommended by the game and maintain good performance. </p>
+</div>
+
+<button class="accordion">Does the game get slower further into saves?</button>
+<div class="panel">
+	<p>Yes, from my testing it will slow down for the first 10 years of a save, after that it doesn’t change much. It ends up with a season taking about twice as long as your first season. Any game setup will slow down, though this will be more or less noticeable depending on your PC and starting speed. </p>
+</div>
 
 </div>
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 
 </body>
 </html>
